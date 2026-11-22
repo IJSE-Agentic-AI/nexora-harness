@@ -1,0 +1,9 @@
+[project]
+name = "nexora-harness"
+version = "0.1.0"
+description = "Nexora harness: a FastAPI endpoint for the Nexora chat UI."
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.165.0",
+    "uvicorn>=0.54.0",
+]
